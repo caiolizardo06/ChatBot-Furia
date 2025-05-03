@@ -1,4 +1,4 @@
-# 🖤 Chat da FÚRIA - Projeto de Experiência Conversacional
+#  Chat da FÚRIA - Projeto de Experiência Conversacional
 
 Este projeto é um chatbot web simples para os fãs do time de CS:GO da **FÚRIA**. Através de uma interface interativa, o usuário pode enviar mensagens e receber respostas automáticas com base em perguntas comuns sobre o time.
 
@@ -27,23 +27,13 @@ O objetivo do projeto é simular uma **experiência conversacional** com o time 
 
 ---
 
-## 🧠 Exemplos de Perguntas Suportadas
-
-- `Quando é o próximo jogo da FÚRIA?`
-- `Qual é a escalação da FÚRIA?`
-- `Quando o time de CS:GO da FÚRIA foi criado?`
-- `Quantos títulos de CS:GO a FÚRIA conquistou?`
-- `Vamos FÚRIA`
-
----
-
 ## 🚀 Como Rodar o Projeto Localmente
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/chat-da-furia.git
-cd chat-da-furia
+git clone https://github.com/caiolizardo06/ChatBot-Furia.git
+cd ChatBot-Furia
 ```
 
 2. Instale os requisitos (crie um ambiente virtual se preferir):
@@ -84,15 +74,8 @@ chat-da-furia/
 │
 ├── app.py
 └── README.md
+
 ```
-
----
-
-## 🎥 Apresentação
-
-> O projeto pode ser apresentado em um vídeo de ~3 minutos demonstrando o funcionamento do chat e como os fãs podem interagir com ele.
-
----
 
 ## 📚 Licença
 

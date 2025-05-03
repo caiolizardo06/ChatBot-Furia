@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat da FURIA</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="layout-container">
+
+    <!-- Imagem lateral esquerda -->
+    <div class="image-section">
+      <img src="{{ url_for('static', filename='img/furia-logo.png') }}" alt="Logo FURIA">
+    </div>
+
+    <!-- Área principal do chat -->
+    <div class="chat-container">
+      <div class="chat-header">🔥 Chat da FURIA 🔥</div>
+      <div class="chat-box" id="chat-box"></div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+    </div>
+
+    <!-- Perguntas possíveis -->
+    <div class="faq-section">
+      <h3>Perguntas possíveis:</h3>
+      <ul>
+        <li>quando é o próximo jogo da fúria?</li>
+        <li>qual é a escalação da fúria?</li>
+        <li>quando o time de cs:go da fúria foi criado?</li>
+        <li>quantos títulos de cs:go a fúria conquistou?</li>
+        <li>vamos fúria</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
